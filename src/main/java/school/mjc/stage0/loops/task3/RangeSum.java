@@ -1,6 +1,7 @@
 package school.mjc.stage0.loops.task3;
 
 public class RangeSum {
+    int result = 0;
     public void printSumInclusive(int firstBoarder, int secondBoarder) {
         if (firstBoarder < 0 || secondBoarder < 0) {
             System.out.println(0);
